@@ -9,13 +9,21 @@ ul {
     list-style-type: none;
     padding: 0;
 }
-ul li a{
+ul li .set{
     height: 20rem;
-    width: 20rem;
-
-}
-img {
-    margin: 100px;
     border: 5px solid rgb(25, 184, 117);
     box-shadow:5px 5px 5px 5px gray;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: rgb(16, 207, 73);
+}
+ul li a:hover{
+    box-shadow:5px 5px 5px 5px rgba(3, 112, 52,0.9);
+}
+.ngb-rating {
+font-size: 25px;
+
 }
