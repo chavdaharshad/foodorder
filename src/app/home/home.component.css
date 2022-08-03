@@ -21,9 +21,17 @@ ul li .set{
     color: rgb(16, 207, 73);
 }
 ul li a:hover{
-    box-shadow:5px 5px 5px 5px rgba(3, 112, 52,0.9);
+    box-shadow:5px 5px 5px 5px rgba(26, 29, 27, 0.9);
+
 }
 .ngb-rating {
 font-size: 25px;
+
+}
+.card{
+    margin:10px;
+}
+.card:hover{
+    box-shadow:5px 5px 5px 5px rgba(26, 29, 27, 0.9);
 
 }

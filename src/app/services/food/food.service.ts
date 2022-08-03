@@ -17,7 +17,8 @@ export class FoodService {
         star: 4.5,
         origins:['italy'],
         tags: ['fastfood','pizza','lunch'],
-        imageurl:'/assets/download.jpg'
+        imageurl:'/assets/download.jpg',
+        cooktime:10-20
       },
       {
         id: 2,
@@ -25,10 +26,10 @@ export class FoodService {
         name: 'Pizzza',
         favorite:false,
         star: 4.5,
-        origins: ['Italy'] ,
+        origins: ['India'] ,
         tags: ['fastfood','pizza','lunch'],
-        imageurl:'/assets/download(1).jpg'
-
+        imageurl:'/assets/download(1).jpg',
+        cooktime:10-20
       },
       {
         id: 3,
@@ -36,19 +37,20 @@ export class FoodService {
         name: 'Pizzza',
         favorite:false,
         star: 4.5,
-        origins:['italy'],
+        origins:['iran'],
         tags: ['fastfood','pizza','lunch'],
-        imageurl:'/assets/download(2).jpg'
+        imageurl:'/assets/download(2).jpg',
+        cooktime:10-20
       },{
         id: 4,
         price: 10,
         name: 'Pizzza',
         favorite:false,
         star: 4.5,
-        origins:['italy'],
+        origins:['indoneshiya'],
         tags: ['fastfood','pizza','lunch'],
-        imageurl:'/assets/download(3).jpg'
-
+        imageurl:'/assets/download(3).jpg',
+        cooktime:10-20
       },
       {
         id: 5,
@@ -56,9 +58,10 @@ export class FoodService {
         name: 'Pizzza',
         favorite:false,
         star: 4.5,
-        origins:['italy'],
+        origins:['irak'],
         tags: ['fastfood','pizza','lunch'],
-        imageurl:'/assets/download(4).jpg'
+        imageurl:'/assets/download(4).jpg',
+        cooktime:10-20
 
       },
       {
@@ -69,7 +72,8 @@ export class FoodService {
         star: 4.5,
         origins:['italy'],
         tags: ['fastfood','pizza','lunch'],
-        imageurl:'/assets/download(5).jpg'
+        imageurl:'/assets/download(5).jpg',
+        cooktime:10-20
 
       },
       {
@@ -80,7 +84,8 @@ export class FoodService {
         star: 4.5,
         origins:['italy'],
         tags: ['fastfood','pizza','lunch'],
-        imageurl:'/assets/download(6).jpg'
+        imageurl:'/assets/download(6).jpg',
+        cooktime:10-20
       },
       {
         id: 8,
@@ -90,7 +95,8 @@ export class FoodService {
         star: 4.5,
         origins:['italy'],
         tags: ['fastfood','pizza','lunch'],
-        imageurl:'/assets/download(7).jpg'
+        imageurl:'/assets/download(7).jpg',
+        cooktime:10-20
       },
       {
         id: 9,
@@ -100,7 +106,8 @@ export class FoodService {
         star: 4.5,
         origins:['italy'],
         tags: ['fastfood','pizza','lunch'],
-        imageurl:'/assets/download(8).jpg'
+        imageurl:'/assets/download(8).jpg',
+        cooktime:10-20
       },
       {
         id: 10,
@@ -110,7 +117,8 @@ export class FoodService {
         star: 4.5,
         origins:['italy'],
         tags: ['fastfood','pizza','lunch'],
-        imageurl:'/assets/download(9).jpg'
+        imageurl:'/assets/download(9).jpg',
+        cooktime:10-20
       }
     ]
   }

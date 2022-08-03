@@ -10,20 +10,22 @@
 
         </div> -->
         <div class="card" style="width: 18rem;">
-           <a href="" class="set">
+            <a href="" class="set">
                 <img class="card-img-top" src="{{food.imageurl}}" alt="Card image cap" width="100%" height="100%">
-           </a> 
+            </a>
             <div class="card-body">
                 <h5 class="card-title">{{food.name}}</h5>
                 <p class="favorite {{food.favorite?'':'not'}}">@</p>
-                <ngb-rating 
-                    value="food.star"  
-                    [max]="5" 
-                    [readonly]="false"
-                    class="ngb-rating"
-                >
+                <ngb-rating value="food.star" [max]="5" [readonly]="false" class="ngb-rating">
                 </ngb-rating>
-                <p>{{food.origin}}</p>
+                <p>{{food.origins}}</p>
+                <div>
+                    <span>🕒{{food.cooktime}}</span>
+                </div>
+                <div>
+                    <span>{{food.price | currency}}</span>
+
+                </div>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>

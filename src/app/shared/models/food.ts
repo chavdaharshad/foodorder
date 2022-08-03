@@ -6,5 +6,6 @@ export class Foods {
     star:number=0;
     tags?:string[];
     imageurl!:string;
+    cooktime!:number;
     origins!:string[];
 }
