@@ -1,0 +1,31 @@
+header{
+    background-color: rgb(222, 245, 222);
+    padding: 0;
+    border-bottom: 2px solid rgb(22,245,24);
+}
+a {
+    background-color: #02ff02 ;
+    padding: 0;
+    margin: 0;
+
+}
+a.logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1em;
+}
+a:hover {
+    background-color: red;
+    text-decoration: none;
+}
+.container {
+    justify-content: space-between;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a{
+    padding: 1em;
+    display: inline-block;
+}
